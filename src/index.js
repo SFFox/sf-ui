@@ -20,6 +20,7 @@ import MySnackbarContent from './Snackbars.js';
 import TablePaginationActions from './Table.js';
 //import theme from './theme.js';
 //import MuiThemeProvider from '@material-ui/core/styles';
+import PositionedTooltips from './Tooltips.js';
 
 
 
@@ -57,6 +58,8 @@ function App() {
             <SwitchLabels />
             Date Picker
             <DatePicker />
+            Tooltips
+            <PositionedTooltips />
             Simple Card
             <SimpleCard />
             Media Card
